@@ -1,4 +1,6 @@
 from city import get_province_city
+import os
+#path = os.path.abspath(os.path.dirname(__file__))
 city_list = get_province_city()
 city_list.append('中国')
 filt_list = ['ns','nis']
